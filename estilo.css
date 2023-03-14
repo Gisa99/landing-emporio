@@ -101,23 +101,24 @@ main > nav > ul{
 .botao2{
     width: 50vw;
     margin: auto;
-   // background-color: chartreuse;
+    background-color: chartreuse;
     line-height: 0px;
-    justify-content: space-around;
-    
-    
-    
 }
 
 .image{
     width: 26px;
+    position: absolute;
+    top: 68.5%;
+    left: 25.8%;
 }
 
 .botao-whatsapp{
     border-radius: 19px;
     height: 25px;
     width: 130px;
-    margin: -6.78px;
+    position: absolute;
+    left: 32.5%;
+   
    
 }
 
@@ -134,6 +135,17 @@ footer{
 
 }
 
+.contato{
+    background-color: aqua;
+    position: absolute;
+    left: 30%;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    
+    
+}
+
 
 .endereco{
    font-size: 10pt;
@@ -146,5 +158,11 @@ footer{
 .contato > a {
     text-decoration: none;
    
+}
+.image-contact{
+    width: 30px;
+   
+   
+ 
 }
 
