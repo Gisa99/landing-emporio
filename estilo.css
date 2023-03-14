@@ -2,18 +2,20 @@
 
 header{
     width: 100vw;
-    height: 50px;  
+    height: 20vh;  
     background-color: #405147f5;
 }
 .botão{
-    background-color: aqua;
+    
     padding-top: 7px;
+    margin-top: 90px;
     width: 52vw;
     height: 7vh;
     display: flex;
     position: absolute;
     left: 24vw;
     justify-content: space-around;
+
     
 }
 
@@ -86,7 +88,7 @@ h3{
 }
 main{
     width: 90vw;
-    height: 100vh;
+    height: 80vh;
     border-radius: 5px;
     margin:auto;
     text-align: center;
@@ -97,7 +99,7 @@ main{
 }
 
 .titulo-2{
-    padding-top: 20px;
+    
     font-family: 'Fahkwang', sans-serif;
     font-size: large;
     font-weight: 600;
@@ -108,12 +110,11 @@ main > nav {
     justify-content: center;
     text-align: left;
     font-family: 'Fahkwang', sans-serif;
-    padding-top: 30px;
+    
 }
 
 main > nav > ul{
     margin-top: 20px;
-    margin-bottom: 20px;
     line-height: 25px;
     list-style: none;
   
@@ -123,7 +124,7 @@ main > nav > ul{
 
 .botao2{
     width: 40vw;
-    margin-top: 100px;
+    margin-top: 20px;
     position: absolute;
     left: 28%;  
     
