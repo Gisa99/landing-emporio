@@ -50,8 +50,10 @@ body > p{
     width: 200px;
 }
 
-.perfil > h1, h2{
+.perfil-title{
     font-family: 'Fahkwang', sans-serif;
+    font-size: larger;
+
 }
 
 h1{
@@ -78,6 +80,9 @@ main{
 
 .titulo-2{
     padding-top: 20px;
+    font-family: 'Fahkwang', sans-serif;
+    font-size: large;
+    font-weight: 600;
 }
 main > nav {
     text-align: center;
