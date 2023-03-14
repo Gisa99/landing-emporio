@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    
+}
+
+body > p{
+    font-size: small;
+    font-weight: 200;
+    font-family: 'Fahkwang', sans-serif;
+
+
+}
+header{
+    width: 100vw;
+    height: 50vh;
+    //background-color: rgb(118, 118, 255);
+    
+}
+
+.botão{
+    width: 250px;
+    height: 5vh;
+    //background-color: aquamarine;
+    margin: auto;
+    display: flex;
+  
+}
+
+.botao-menu{
+    width: 75px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #DBF4E7;
+    border: 1px solid #DBF4E7;
+    color: #405147; 
+    margin: auto;
+   
+}
+.perfil{
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.image-perfil{
+    width: 150px;
+    margin-bottom: 2px;
+}
+
+.perfil > h1, h2{
+    font-family: 'Fahkwang', sans-serif;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+h3{
+    font-size: medium;
+    font-weight: 300;
+}
+main{
+    width: 100vw;
+    height: 40vh;
+    margin:auto;
+    text-align: center;
+     
+}
+
+main > nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main > nav > ul{
+    margin-top: 5vh;
+    margin-bottom: 5%;
+    line-height: 25px;
+    list-style: none;
+    //border: 1px solid #000;
+    //background-color: aqua;   
+}
+
+
+
+.botao2{
+    width: 50vw;
+    margin: auto;
+   // background-color: chartreuse;
+    line-height: 0px;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.image{
+    width: 26px;
+}
+
+.botao-whatsapp{
+    border-radius: 19px;
+    height: 25px;
+    width: 130px;
+    margin: -6.78px;
+   
+}
+
+
+footer{
+    background-color: rgb(153, 15, 38);
+    text-align: left;
+    padding: 10px;
+}
+
+.slogan{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.endereco{
+   font-size: 10pt;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding-top: 5px;
+   padding-bottom: 10px;
+
+}
+
+.contato > a {
+    text-decoration: none;
+   
+}
+
