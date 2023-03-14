@@ -6,13 +6,15 @@ header{
     background-color: #405147f5;
 }
 .botão{
+    background-color: aqua;
     padding-top: 7px;
-    width: 73vw;
+    width: 52vw;
     height: 7vh;
     display: flex;
     position: absolute;
-    left: 12%;
+    left: 24vw;
     justify-content: space-around;
+    
 }
 
 .botao-menu{
@@ -130,7 +132,7 @@ main > nav > ul{
 .image{
     width: 30px;
     position: relative;
-    left: 5%;
+    left: 2%;
     background-color: 
     
    
