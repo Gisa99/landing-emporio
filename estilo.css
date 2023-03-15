@@ -54,13 +54,15 @@ h2{
 
 main{
     width: 90vw;
-    height: 470px;
+    height: 500px;
     border-radius: 5px;
     margin:auto;
     text-align: center;
     background-color: #f5e8dfe5;
     color: #1d241f;
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.418);
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 main > nav > ul{
     margin-top: 20px;
