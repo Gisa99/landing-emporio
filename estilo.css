@@ -54,7 +54,7 @@ h2{
 
 main{
     width: 90vw;
-    height: 80vh;
+    height: 74vh;
     border-radius: 5px;
     margin:auto;
     text-align: center;
@@ -77,7 +77,6 @@ main > nav > ul{
     width: 130px;
     background: linear-gradient(to bottom, rgb(25, 230, 25), rgb(7, 92, 7) );
     border: 1px solid rgb(13, 161, 13);
-    color:  #f5e8dfe5;
     box-shadow: inset 0px 0.2px 01px 0.5px rgb(102, 243, 102);
     transition: 1s;
     transition: 0.3s ease-out;
@@ -86,6 +85,12 @@ main > nav > ul{
 .botao-whatsapp:hover{
     background: linear-gradient(to bottom, rgb(7, 75, 7), rgb(7, 92, 7) );
     transform: scale(1.1);
+}
+
+.botao-whatsapp > a {
+    text-decoration: none;
+    color:  #f5e8dfe5;
+    text-shadow: 0px 0px 1px 1px #1d241f;
 }
 
 
