@@ -1,0 +1,88 @@
+@charset  "UTF-8";
+
+@media(min-width:812px){
+   header{
+    justify-content: left;
+    align-items: left;
+   }
+  .botão{
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+
+  main {
+    width: 80vw;
+    height: 55vh;
+    border-radius: 25px;   
+}
+   .perfil{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   text-align: left;
+  }
+
+  .perfil-image{
+    width: 30%;
+  }
+
+  .perfil-title{
+    width: 60%;
+    font-size: 1.3rem;
+}
+.list{
+    text-align: left;
+    margin:auto;
+    font-size: 1.2rem;
+    line-height: 15px;
+    width: 50%;
+}
+
+.botao2{
+    width: 40%;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.botao-whatsapp{
+    border-radius: 30px;
+    height: 45px;
+    width: 130px;
+}
+
+footer{
+    display: inline;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+}
+
+@media(min-width:1024px){
+    main {
+        width: 48vw;
+        height: 60vh;
+        border-radius: 25px;   
+    }
+
+    .contato{
+        position: relative;
+        display: block;
+        margin-right: -2%;
+        margin-top: -30%;
+        justify-content: space-around;
+        height: 510px;
+        line-height: 40px;
+
+    }
+    .image-contact{
+        width: 45px;
+    }
+
+    footer{
+        height: 15vh;
+    }
+    
+    .endereco{
+        margin-top: 10px;
+    }
+}
